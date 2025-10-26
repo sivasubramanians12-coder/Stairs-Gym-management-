@@ -1,0 +1,19 @@
+# Stairs Gym Management System - Python Dependencies
+
+# Notion API Client
+notion-client==2.2.1
+
+# AI/LLM Integration
+groq==0.11.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Date/Time Handling
+python-dateutil==2.8.2
+
+# HTTP Requests (if needed)
+requests==2.31.0
+
+# Optional: Enhanced terminal output
+colorama==0.4.6

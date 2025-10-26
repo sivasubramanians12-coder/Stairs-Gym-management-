@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Claude configuration files (contain API keys)
+.claude.json
+.claude.json.backup
+.claude/settings.local.json
+
+# Test files with API keys
+test_claude_api.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP config (may contain tokens)
+.mcp.json
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Notion cache
+.notion_cache/
